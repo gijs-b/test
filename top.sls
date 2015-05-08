@@ -1,4 +1,4 @@
-ase:
+base:
  'ubuntu':
   - webserver/webserver
 
