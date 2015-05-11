@@ -7,8 +7,8 @@ asterisk:
   - source_hash: md5=afc8a5b7fc239c7aa5692b563d7e6ed2
   - tar_options: zxvf
   - archive_format: tar
-
-iptables.append:
+iptables:
+ iptables.append:
     - table: filter
     - chain: INPUT
     - jump: ACCEPT
